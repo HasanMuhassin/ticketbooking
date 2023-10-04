@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+}
+
+.h1 {
+    background: black;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    padding: 0 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* for log design*/
+
+.logo {
+    margin-left: 30px;
+    margin-top: 8px;
+    font-size: 40px;
+    display: flex;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fefefe;
+}
+
+.logo span {
+    color: rgb(245, 157, 7);
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.hum {
+    display: none;
+}
+
+u {
+    color: #fff;
+}
+
+.home_image {
+    margin-left: 40px;
+}
+
+
+/* for list in one line*/
+
+.nav ul {
+    margin-left: 680px;
+    display: flex;
+}
+
+
+/* for list design*/
+
+.nav ul li a {
+    display: block;
+    font-size: 15px;
+    padding: 10px 15px;
+    margin: 0 5px;
+    transition: 0.2s;
+    border-radius: 50px;
+    color: #fefefe;
+}
+
+.nav ul li a:hover,
+.nav ul li a.active {
+    color: rgb(255, 115, 0);
+    background: #fefefe;
+    transition: 0.3s all linear;
+    transform: scale(1.1);
+}
+
+.user {
+    display: flex;
+    padding-right: 40px;
+}
+
+
+/*user imange*/
+
+.user-img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/*form start*/
+
+.payment-form {
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 95%;
+    height: 400px;
+    background-color: rgb(207, 206, 206);
+    display: flex;
+    margin-bottom: 50px;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-left: 160px;
+}
+
+.pay-img {
+    position: absolute;
+    overflow: hidden;
+    width: 45%;
+    height: 400px;
+}
+
+.img1 {
+    width: 100%;
+    height: 100%;
+}
+
+.payline1,
+.payline2 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 50px;
+    margin-left: 480px;
+}
+
+form input {
+    height: 50px;
+    width: 190px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 1px solid;
+}
+
+form input:hover {
+    border: blue;
+}
+
+.lastname,
+.email {
+    margin-left: 40px;
+}
+
+.card input {
+    width: 430px;
+    margin-bottom: 20px;
+}
+
+.movie-btn {
+    display: flex;
+    margin-left: 100px;
+}
+
+.ok-btn button,
+.cal-btn button {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(255, 153, 0);
+    border: none;
+    font-size: 20px;
+}
+
+.cal-btn button {
+    background-color: gray;
+}
+
+.cal-btn {
+    margin-left: 40px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}

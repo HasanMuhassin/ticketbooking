@@ -1,0 +1,91 @@
+.addtitle {
+    font-family: 'Lucida Sans';
+    padding-right: 330px;
+    margin-top: 10px;
+    color: black;
+}
+
+.add-show h1 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+}
+
+.movie-detail-table {
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+select {
+    margin-left: 20px;
+    font-size: 18px;
+    height: 40px;
+    width: 90%;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.select-cate {
+    margin-top: 10px;
+    margin-left: 0px;
+    color: rgb(0, 0, 0);
+    display: grid;
+    font-size: 15px;
+}
+
+#date1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#date1 input {
+    border: 1px solid;
+    height: 40px;
+    width: 90%;
+    margin-left: 0;
+    background: transparent;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    padding-left: 10px;
+}
+
+.check1,
+.check2 {
+    display: flex;
+}
+
+.show-time label {
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-right: 40px;
+    padding-bottom: 3px;
+}
+
+.admin-show {
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.admin-show button {
+    margin-bottom: 20px;
+}
+
+.show-detail-table .addm-btn {
+    background-color: rgb(59, 192, 59);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.show-detail-table .dem-btn {
+    background-color: rgb(245, 79, 79);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}

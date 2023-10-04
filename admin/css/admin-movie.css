@@ -1,0 +1,111 @@
+.addtitle {
+    font-family: 'Lucida Sans';
+    margin-right: 330px;
+    margin-top: 10px;
+}
+
+.admin-movie {
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.add-moviebtn {
+    margin-bottom: 20px;
+}
+
+.movieadmin-add .addm-btn {
+    background-color: rgb(59, 192, 59);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.movieadmin-add .dem-btn {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.movieadmin-add table .a1 {
+    max-width: 100px;
+}
+
+
+/* add movie window */
+
+.modal-dialog .modal-content {
+    width: 700px;
+}
+
+.modal-body h3 {
+    font-size: 18px;
+}
+
+.modal-content {
+    display: flex;
+}
+
+#moviet {
+    margin-left: 20px;
+    font-size: 18px;
+    height: 40px;
+    width: 87%;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+form input {
+    border: 1px solid;
+    height: 40px;
+    width: 87%;
+    margin-left: 20px;
+    background: transparent;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: black;
+    outline: none;
+}
+
+.movieline1,
+.movieline2,
+.movieline3,
+.movieline4 {
+    display: flex;
+}
+
+.mtext input {
+    height: 100px;
+    overflow: hidden;
+}
+
+.movieline1 input,
+.movieline2 input,
+.movieline3 input,
+.movieline4 input {
+    width: 280px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.movieadmin-add .table-head thead {
+    width: 100px;
+    color: aqua;
+}
+
+
+/* booking css */
+
+.booking-detail-table {
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.booking-detail-table .dem-btn{
+    color: white;
+    background-color: red;
+}
